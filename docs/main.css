@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	max-width: 1200px;
+	margin: 40px auto;     
+	display: flex;
+	justify-content: center;
+	background-image: url("https://img.freepik.com/free-photo/close-up-person-working-call-center_23-2149288221.jpg?w=1380&t=st=1676936031~exp=1676936631~hmac=963a9329ae16b0ea39b26e30b694006f090b5cc2e5665a57aeeb320afc4e1192");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+}
+form {
+  width: 50%;
+  margin: 40px auto;
+}
+article{
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.559);
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+  box-shadow: 1;
+}
+#Directory{
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  margin: 15px 0;
+}
+h1{
+  color: rgb(255, 255, 255);
+  font-size: 0px;
+  margin: 7px 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+@media (max-width: 500px){
+  h1{
+    font-size: 40px;
+    background-color: white;
+  }
+@media (prefers-color-scheme: dark){
+  body{
+    background-color: rgb(255, 255, 255);
+    }
+  }
+}
+p{
+  color: rgb(255, 255, 255);
+}
+input{
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+}
+button{
+  font-family: Roboto, sans-serif;
+  font-weight: 0;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #423d42b0;
+  padding: 10px 30px;
+  border: solid #ffffff 2px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 25px;
+  transition : 1569ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}

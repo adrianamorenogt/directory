@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	max-width: 1200px;
+	margin: 40px auto;
+	display: flex;
+	justify-content: center;
+  /* background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%); */
+	background-image: url("https://img.freepik.com/free-photo/audio-headset-used-by-call-center-agents-help-clients-telecommunication-with-technology-empty-customer-service-workstation-with-headphones-computers-modern-gadgets_482257-40834.jpg?w=1380&t=st=1676936159~exp=1676936759~hmac=b4f1954200a0815270fb1f8956a23c20a9e1e1ff70dc7732d5166bb6b96acfed");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  form {
+    width: 50%;
+    margin: 40px auto;
+  }
+  article{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.559);
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 1;
+    
+  }
+  #LoginIniciarSesion{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin: 15px 0;
+  }
+  h1{
+    color: rgb(255, 255, 255);
+    font-size: 0px;
+    margin: 7px 0;
+  }
+  @media (max-width: 500px){
+    h1{
+      font-size: 40px;
+      background-color: white;
+    }
+  @media (prefers-color-scheme: dark){
+    body{
+      background-color: rgb(255, 255, 255);
+      }
+    }
+  }
+  p{
+    color: rgb(255, 255, 255);
+  }
+  a{
+    text-decoration: none;
+  }
+  input{
+    color: rgb(0, 0, 0);
+  }
+  .iconos i{
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.296);
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 6px;
+  }
+  /* Botón */
+  button{
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #423d42b0;
+    padding: 10px 30px;
+    border: solid #ffffff 2px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1569ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+  }
+  
